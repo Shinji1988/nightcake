@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playfair+Display', sans-serif;
+    font: weight 400px;;
+    background-color:#DE8593 ;
+}
+
+h1{
+    color: #6BBFB7;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bienvenidos p{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+
+.boton1{
+    color:#E9C7A6;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #24A799 ;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+nav{
+    background-color:#24A799 ;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 1300px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.menu li a{
+    color:#E9C7A6;
+}
+
+.bienvenidos{
+background-image: url(img/background.jpg);
+background-position: center;
+background-repeat: no-repeat;
+padding: 1px;
+}
+
+.bienvenidos {
+    color: rgb(187, 80, 80);
+    font-weight: 400;
+}
+
+ul li{
+    font-family: 'Playfair+Display', sans-serif;
+    font-weight: 600;
+}
+
+h2{
+    color: #b0283d;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+
+.article{
+    width: 320px;
+    height: 350px;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+h3{
+    font-family: 'Playfair+Display', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.boton2{
+    color: #4A653E;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color:#F6B7C5 ;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+
+.boton3{
+    color:#4A653E ;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color:#F6B7C5 ;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.tortas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 960px;
+}
+
+
+.boton4{
+    color:#4A653E ;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #F6B7C5;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.boton5{
+    color:#4A653E ;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    background-color: #F6B7C5;
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+margin-left: 50px;
+}
+
+.footer li{
+    margin-left: 50px;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.end p{
+    color:#2D340F;
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 200px;
+}
+
+footer{
+    background-color: #66B8B2;
+    padding: 10px;
+}
+
+.boton1:hover{
+    color: #F9B6C7;
+    background-color: #d52184;
+}
+
+.boton2:hover{
+    color:#F9B6C7 ;
+    background-color: #d52184;
+}
+
+.boton3:hover{
+    color:#F9B6C7 ;
+    background-color: #d52184;
+}
+
+.boton4:hover{
+    color:#F9B6C7 ;
+    background-color: #d52184;
+}
+
+.menu li a:hover{
+    color:#710d50 ;
+}
+
+.menu img:hover{
+    filter: brightness(1.18);
+}
+
+.footer img:hover{
+    filter: brightness(1.18);
+}
